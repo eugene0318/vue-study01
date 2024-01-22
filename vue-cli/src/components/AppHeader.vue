@@ -8,11 +8,11 @@
 <script>
 export default {
   props: ["propsdata"],
-  methods : [
-    sendEvent : function(){
-
-    }
-  ]
+  methods: {
+    sendEvent: function () {
+      this.$emit("renew");
+    },
+  },
 };
 </script>
 
